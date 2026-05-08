@@ -27,18 +27,12 @@
       "name": "Dwarves",
       "units": [
         {
-          "notes": "Choose axe, sword, or mace",
-          "wargear": [
-            "Axe",
-            "Sword",
-            "Mace"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Dwarf Guard",
           "tough": 5,
           "wounds": 3,
           "estAtk": 3,
+          "atkMult": null,
+          "notes": "Choose axe, sword, or mace",
           "tiers": [
             {
               "models": 3,
@@ -50,40 +44,53 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Axe",
+            "Sword",
+            "Mace"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Axe"
-              ],
-              "id": "_lgptzaw",
+              "id": "_tgn0gtq",
               "name": "Axe",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (1\")"
+              "text": "Move 2\", Attack 3 (1\")",
+              "wargear": [
+                "Axe"
+              ]
             },
             {
-              "wargear": [
-                "Sword"
-              ],
-              "id": "_9b62kwi",
+              "id": "_l9ozqng",
               "name": "Sword",
               "tag": "action",
-              "text": "Move 2\", Attack 2 (1\", cleave)"
+              "text": "Move 2\", Attack 2 (1\", cleave)",
+              "wargear": [
+                "Sword"
+              ]
             },
             {
-              "wargear": [
-                "Mace"
-              ],
-              "id": "_hfddz9d",
+              "id": "_dzz9t30",
               "name": "Mace",
               "tag": "action",
-              "text": "Move 2\", Attack 2 (1\", piercing)"
+              "text": "Move 2\", Attack 2 (1\", piercing)",
+              "wargear": [
+                "Mace"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_mu17wpj",
+              "id": "_j772zk9",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 4 + 1d3\""
+              "text": "Move 4 + 1d3\"",
+              "wargear": []
+            },
+            {
+              "id": "_nze0qxv",
+              "name": "Ironclad",
+              "tag": "passive",
+              "text": "When wounds are allocated to Dwarf Guard, reduce the total wounds by 1d3.",
+              "wargear": []
             }
           ],
           "id": "u1777982718320"
