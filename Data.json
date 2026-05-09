@@ -1676,13 +1676,43 @@
     },
     {
       "id": "_xmaz5x9",
-      "title": "Board setup",
+      "title": "Board Setup",
       "body": "The game is played on a central play area of 24\" × 24\". The full play surface may extend up to 36\" × 36\", but all deployment, objectives, and game rules refer to the central play area only. The extended area is just extra space for units to move. Far board edges refer to the 2 board edges of the 24\" area that players will deploy from.\n\nPlace 2 central objectives on the centreline of the board, at least 12\" apart. Then place 2 far objectives on each side, on a line 6\" from each far board edge, also at least 12\" apart. No objectives should be within 8\" of any other objective."
     },
     {
       "id": "_x6i0jh1",
       "title": "Terrain",
       "body": "All pieces of terrain fall into 1 of 3 categories, and 1 of 3 cover traits. The terrain categories determine movement, and are as follows:\n\n**Area** - Don't effect model movement\n**Hazard** - Models can't end movement within a hazard, but can move through by spending an additional 2\" of movement\n**Obstacles** - Blocks model movement completely\n\nEach of these will be combined with a cover trait. They are as follows:\n\n**Open** - Provides no cover\n**Obscuring** - Causes attacks that draw line of sight through this terrain to become inaccurate\n**Blocking** - Prevents line of sight from being drawn\n\nIf a unit is within an obscuring area, or base to base with an obscuring obstacle, it can ignore that piece of terrain for the purpose of making attacks.\n\nBoth players agree on terrain placement before a game begins. Between 10 and 15 pieces of terrain should be placed. Each Hazard and Obstacle should be at least 3\" from other Hazards and Obstacles, and no terrain should cover the area of any objective."
+    },
+    {
+      "id": "_l9n4me3",
+      "title": "Turns",
+      "body": "At the start of the game, players roll off. The player who wins can either choose a board edge, or a turn order, giving the other decision to the player who lost the roll off.\n\nOn a player's turn, they can activate up to 4 different units. On the first turn of the player who acts first, they activate only 2 units. To activate a unit, if it is not on the battlefield, first place it on the battlefield with all models behind your board edge. You may then choose an action for that unit, and resolve that action. A unit can only be activated once per turn. On the turn a unit is first placed on the battlefield, it can't attack.\n\nSome rules allow a unit to trigger, which allows them to take an action without spending one of the 4 activations for that turn. If a unit triggers during your turn, it cannot be activated later, and if a unit triggers during your opponent's turn, it becomes stunned. A unit cannot activate or trigger if it has already done so this turn."
+    },
+    {
+      "id": "_2cqexxk",
+      "title": "Maneuvers",
+      "body": "At the beginning of each turn, that player gains 1 maneuver point. Each army has a list of maneuvers they can access. During your turn, you can activate maneuvers at any point. You can activate maneuvers outside of your turn if the maneuver specifies. Each maneuver costs 1 point to activate, and the same maneuver can't be used more than once each turn."
+    },
+    {
+      "id": "_azosg48",
+      "title": "Scoring",
+      "body": "At the start of each player's turn from their 3rd turn onwards, they may score from objectives. For each central objective, they score 1 point if they have more units within 2\" of those objectives. If unit numbers are equal, they score points if they have greater points cost of units within 2\". For each far objective (only the objectives furthest from a player's deployment), they score 1 point if they have any units within 2\" of the objectives. No points can be scored from the objectives closest to a player's deployment.\n\nThe first player to 6 points wins."
+    },
+    {
+      "id": "_mioyoud",
+      "title": "Movement",
+      "body": "When a unit moves, each model may move up to the distance stated. Models may not move through other models. Each model must remain within 0.5\" of at least one other model in its unit at all times during movement. If movement is Flying, the model may ignore terrain and allied models while moving, but must still end in a valid location.\n\nIf, during a move, any model in a unit comes within 1\" of an enemy unit it was not previously within 1\" of, that unit becomes engaged. For the remainder of that movement action, each model may only move directly towards the engaged enemy unit by the shortest legal path. Models may choose to stop at 1\" and not close further, but may not move in any other direction for the rest of that move.\n\nIf a unit later moves again while already engaged, this restriction does not apply and it may move freely."
+    },
+    {
+      "id": "_ewlq771",
+      "title": "Attacking",
+      "body": "When a unit takes an action that calls for an attack, choose a valid target unit within range, then roll a number of dice equal to the attack's value for each model. Each die that equals or exceeds the target's Toughness inflicts 1 wound.\n\nAttacks with a range of 1\" are melee attacks by default, and attacks with a range of greater than 1\" are ranged, unless otherwise specified. Ranged attacks may target any unit within the stated range, but only models within range may contribute to the attack. Melee attacks can be drawn from any point on a model, or any point on a different model within 0.5\" in the same unit.\n\nA unit's ranged attacks become Inaccurate if that unit has been within 1\" of an enemy unit at any point during its current activation. Ranged attacks targeting a unit that is currently engaged in melee are also Inaccurate.\n\nThe following modifiers can be applied to attacks:\n\n**Piercing** - The target's toughness is treated as 2 lower\n**Cleave** - The attack rolls twice as many dice if the unit contains 2 or more models\n**Inaccurate** - The attack rolls half of the number of dice, rounded up\n\nSome attacks are labelled **Inflict** rather than Attack. An Inflict attack does not deal damage. Instead, if the attack would generate enough wounds to destroy the target model, the stated condition is applied to that unit, and a relevant token is applied. Unless otherwise specified, tokens are removed at the end of that player's turn. Below are common conditions:\n\n**Stunned** - The unit can't activate\n**Disarmed** - The unit can't make attacks or inflict\n**Snared** - The unit can't move\n**Slowed** - The unit can't move more than 3\" total during its turn\n**Staggered** - The unit's attacks have inaccurate\n**Execute** - The unit is killed"
+    },
+    {
+      "id": "_b1284tp",
+      "title": "Line Of Sight",
+      "body": "Line of sight is drawn from any point on an attacking model's base to any point on the defending unit's base. The attacker chooses both endpoints.\n\nEach model in the attacking unit draws its own line of sight independently. If a model cannot draw any unblocked line of sight to the target, it cannot participate in the attack. If a model's line of sight passes through blocking terrain, it is excluded. A model may still attack through obscuring terrain, but this imposes the Inaccurate modifier on the whole attack.\n\nWhen resolving a ranged attack, the worst terrain penalty among all participating attacking models applies to the whole attack."
     }
   ]
 }
