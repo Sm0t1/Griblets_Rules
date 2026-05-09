@@ -3,22 +3,22 @@
     {
       "rules": [
         {
-          "id": "_qtw9wf8",
+          "id": "_9uce3sa",
           "title": "Fortify (Passive)",
           "desc": "When you would activate a unit, you can instead choose to fortify that unit. A unit can't activate and fortify. Place a fortify token next to that unit if it does not already have one. Once per round, you may activate a unit with a fortify token without spending an activation, consuming the fortify token. When a unit with fortify activates, it can't move more than 2”. If a unit activates normally, it loses its token."
         },
         {
-          "id": "_rztauop",
-          "title": "Duck (Manoeuver)",
-          "desc": "Choose an allied unit engaged in melee. Until the end of the turn, that unit no longer counts as engaged in melee for the purpose of gaining cover from ranged units."
+          "id": "_bl2iyo2",
+          "title": "Mark (Manoeuver)",
+          "desc": "Choose an enemy unit, and place a mark token on that unit. After a unit has had a mark token for 1 turn, attacks against that unit ignore obscuring terrain, and ranged attacks against that unit have their range increased by 3\". The token is not removed until the unit finishes a movement 3\" closer to that player's far board edge."
         },
         {
-          "id": "_djux3k3",
+          "id": "_v9bjksg",
           "title": "Hold Ground (Manoeuver)",
           "desc": "Choose an enemy unit that is attempting to move within 1” of an allied unit. That unit can either choose to not enter within 1” of that unit, or that unit can trigger an action, however they can’t move during that action, and any attacks can only target the triggering unit. Ranged attacks made this way don’t suffer from inaccurate."
         },
         {
-          "id": "_mcudds7",
+          "id": "_ubjs18p",
           "title": "Subterran traversal (Manoeuver)",
           "desc": "Choose an allied unit. When it activates, it can only move, but ignores all terrain and models, and can move an additional 2\"."
         }
@@ -480,24 +480,24 @@
     {
       "rules": [
         {
-          "id": "_2ofcor4",
+          "id": "_uxqgcod",
           "title": "Enrage (Passive)",
           "desc": "Whenever a unit takes damage, place an enrage token on that unit if it does not already have one. At the end of your turn, remove all enrage tokens from all units. During your turn, when you activate a unit with an enrage token, it can move an additional 1d3”. If the unit attacks, it may reroll each attack die once."
         },
         {
-          "id": "_j1fqx9g",
+          "id": "_6b606a6",
           "title": "Prod (Manoeuver)",
           "desc": "Choose a unit within 3” of an allied unit. That unit receives 1 wound."
         },
         {
-          "id": "_ffso875",
+          "id": "_gimdtde",
           "title": "Thrash (Manoeuver)",
           "desc": "Choose an allied unit with an enrage token. Remove the token. That unit is able to be activated an additional time this turn, with normal activation cost."
         },
         {
-          "id": "_zpd9n26",
-          "title": "Roar (Manoeuver)",
-          "desc": "Choose an allied unit. Inflict X against all enemy units within 6” of that unit, where X is 5 + that units point cost. All inflicted units are stunned."
+          "id": "_r7xl45m",
+          "title": "Stampede (Manoeuver)",
+          "desc": "Choose an enraged unit. When that unit moves this turn, all enemy units with equal or lower points cost that would be in the path of the movement are moved to the closest legal position to allow the movement. If a unit is not pushed, it can still be ignored when moving, but the stampede unit can't end its movement overlapping with a unit it can't push. This movement also ignores engagement."
         }
       ],
       "id": "a1777983563069",
@@ -1677,7 +1677,7 @@
     {
       "id": "_xmaz5x9",
       "title": "Board Setup",
-      "body": "The game is played on a central play area of 24\" × 24\". The full play surface may extend up to 36\" × 36\", but all deployment, objectives, and game rules refer to the central play area only. The extended area is just extra space for units to move. Far board edges refer to the 2 board edges of the 24\" area that players will deploy from.\n\nPlace 2 central objectives on the centreline of the board, at least 12\" apart. Then place 2 far objectives on each side, on a line 6\" from each far board edge, also at least 12\" apart. No objectives should be within 8\" of any other objective."
+      "body": "The game is played on a central play area of 24\" × 24\". The full play surface may extend up to 36\" × 36\", but all deployment, objectives, and game rules refer to the central play area only. The extended area is just extra space for units to move. Far board edges refer to the 2 board edges of the 24\" area that players will deploy from.\n\nPlace 2 central objectives on the centreline of the board, at least 10\" apart. Then place 2 far objectives on each side, on a line 6\" from each far board edge, also at least 10\" apart. No objectives should be within 7\" of any other objective."
     },
     {
       "id": "_x6i0jh1",
@@ -1691,8 +1691,8 @@
     },
     {
       "id": "_2cqexxk",
-      "title": "Maneuvers",
-      "body": "At the beginning of each turn, that player gains 1 maneuver point. Each army has a list of maneuvers they can access. During your turn, you can activate maneuvers at any point. You can activate maneuvers outside of your turn if the maneuver specifies. Each maneuver costs 1 point to activate, and the same maneuver can't be used more than once each turn."
+      "title": "Manoeuvers",
+      "body": "At the beginning of each turn, that player gains 1 manoeuvre point. Each army has a list of manoeuvres they can access. During your turn, you can activate manoeuvres at any point. You can activate manoeuvres outside of your turn if the manoeuvre specifies. Each manoeuvre costs 1 point to activate, and the same manoeuvre can't be used more than once each turn."
     },
     {
       "id": "_azosg48",
