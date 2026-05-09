@@ -821,6 +821,47 @@
               "text": "If Lizard Outrider attacks a unit that has already been attacked this turn, its attacks gain piercing."
             }
           ]
+        },
+        {
+          "name": "Lizard Chieftan",
+          "tough": 3,
+          "wounds": 8,
+          "estAtk": 1,
+          "atkMult": null,
+          "notes": "",
+          "tiers": [
+            {
+              "models": 1,
+              "pts": 2
+            }
+          ],
+          "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
+          "actions": [
+            {
+              "id": "_on2m7dy",
+              "name": "Command",
+              "tag": "action",
+              "text": "Move 6\", Choose a unit within 3\", it gains an enrage token",
+              "wargear": []
+            },
+            {
+              "id": "_95ig5nk",
+              "name": "Rush",
+              "tag": "action",
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
+            },
+            {
+              "id": "_o4e1u0p",
+              "name": "Battle Chant",
+              "tag": "passive",
+              "text": "The first time during a turn a lizard within 3\" would be killed, it instead lives with 1 remaining wound.",
+              "wargear": []
+            }
+          ],
+          "id": "_xdip35a"
         }
       ]
     },
