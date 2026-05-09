@@ -27,12 +27,18 @@
       "name": "Dwarves",
       "units": [
         {
+          "notes": "Choose axe, sword, or mace",
+          "wargear": [
+            "Axe",
+            "Sword",
+            "Mace"
+          ],
+          "selectedWargear": [],
+          "atkMult": null,
           "name": "Dwarf Guard",
           "tough": 5,
           "wounds": 3,
           "estAtk": 3,
-          "atkMult": null,
-          "notes": "Choose axe, sword, or mace",
           "tiers": [
             {
               "models": 3,
@@ -44,53 +50,47 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [
-            "Axe",
-            "Sword",
-            "Mace"
-          ],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [
+                "Axe"
+              ],
               "id": "_tgn0gtq",
               "name": "Axe",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (1\")",
-              "wargear": [
-                "Axe"
-              ]
+              "text": "Move 2\", Attack 3 (1\")"
             },
             {
+              "wargear": [
+                "Sword"
+              ],
               "id": "_l9ozqng",
               "name": "Sword",
               "tag": "action",
-              "text": "Move 2\", Attack 2 (1\", cleave)",
-              "wargear": [
-                "Sword"
-              ]
+              "text": "Move 2\", Attack 2 (1\", cleave)"
             },
             {
+              "wargear": [
+                "Mace"
+              ],
               "id": "_dzz9t30",
               "name": "Mace",
               "tag": "action",
-              "text": "Move 2\", Attack 2 (1\", piercing)",
-              "wargear": [
-                "Mace"
-              ]
+              "text": "Move 2\", Attack 2 (1\", piercing)"
             },
             {
+              "wargear": [],
               "id": "_j772zk9",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 4 + 1d3\"",
-              "wargear": []
+              "text": "Move 4 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_nze0qxv",
               "name": "Ironclad",
               "tag": "passive",
-              "text": "When wounds are allocated to Dwarf Guard, reduce the total wounds by 1d3.",
-              "wargear": []
+              "text": "When wounds are allocated to Dwarf Guard, reduce the total wounds by 1d3."
             }
           ],
           "id": "u1777982718320"
@@ -1663,5 +1663,26 @@
       ]
     }
   ],
-  "gameRules": []
+  "gameRules": [
+    {
+      "id": "_fr7t18a",
+      "title": "Dice",
+      "body": "All dice used in this game are either 3-sided (d3) or 6-sided (d6). When rolling a d3, roll a d6 and divide the result by 2, rounding up. On any die roll, a natural 1 is always a failure and a natural 6 is always a success, regardless of any modifiers applied."
+    },
+    {
+      "id": "_hs027a1",
+      "title": "Building Your Army",
+      "body": "Each player has 15 points to spend assembling their army. Each model has the following characteristics:\n\n**Toughness** - The minimum roll required for an attack to wound this model.\n**Wounds** - The number of successful hits required to destroy this model.\n**Actions** - Abilities a model may use when its unit is activated. When you choose to activate a model, pick 1 of these.\n**Passives** - Abilities that are always active, requiring no activation."
+    },
+    {
+      "id": "_xmaz5x9",
+      "title": "Board setup",
+      "body": "The game is played on a central play area of 24\" × 24\". The full play surface may extend up to 36\" × 36\", but all deployment, objectives, and game rules refer to the central play area only. The extended area is just extra space for units to move. Far board edges refer to the 2 board edges of the 24\" area that players will deploy from.\n\nPlace 2 central objectives on the centreline of the board, at least 12\" apart. Then place 2 far objectives on each side, on a line 6\" from each far board edge, also at least 12\" apart. No objectives should be within 8\" of any other objective."
+    },
+    {
+      "id": "_x6i0jh1",
+      "title": "Terrain",
+      "body": "All pieces of terrain fall into 1 of 3 categories, and 1 of 3 cover traits. The terrain categories determine movement, and are as follows:\n\n**Area** - Don't effect model movement\n**Hazard** - Models can't end movement within a hazard, but can move through by spending an additional 2\" of movement\n**Obstacles** - Blocks model movement completely\n\nEach of these will be combined with a cover trait. They are as follows:\n\n**Open** - Provides no cover\n**Obscuring** - Causes attacks that draw line of sight through this terrain to become inaccurate\n**Blocking** - Prevents line of sight from being drawn\n\nIf a unit is within an obscuring area, or base to base with an obscuring obstacle, it can ignore that piece of terrain for the purpose of making attacks.\n\nBoth players agree on terrain placement before a game begins. Between 10 and 15 pieces of terrain should be placed. Each Hazard and Obstacle should be at least 3\" from other Hazards and Obstacles, and no terrain should cover the area of any objective."
+    }
+  ]
 }
