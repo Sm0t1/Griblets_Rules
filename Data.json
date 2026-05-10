@@ -1702,6 +1702,392 @@
           "id": "_4muk0jw"
         }
       ]
+    },
+    {
+      "id": "_1rkq9d6",
+      "name": "Kobolds",
+      "rules": [
+        {
+          "id": "_zykrqyg",
+          "title": "Horde (passive)",
+          "desc": "During your turn, you can activate 5 units instead of 4, but 1 activation must be spent on a 1 cost unit."
+        },
+        {
+          "id": "_wr0uvw7",
+          "title": "Empty The Warrens (maneuver)",
+          "desc": "Choose up to 4 units either in reserve, or within 6\" of your board edge. Those units can each move 4\"."
+        },
+        {
+          "id": "_oicde7f",
+          "title": "Throw Rocks (maneuver)",
+          "desc": "Choose an enemy unit. All allied units within 7\" of that unit can Attack 3 (7\") against that unit."
+        },
+        {
+          "id": "_99i96zh",
+          "title": "Taunt (maneuver)",
+          "desc": "Choose an allied unit. Until the start of your next turn, if any enemy attacks a different allied unit while the chosen unit is within range and line of sight of the attack, the attack is inaccurate."
+        }
+      ],
+      "units": [
+        {
+          "name": "Kobold Grunt",
+          "tough": 3,
+          "wounds": 3,
+          "estAtk": 2,
+          "atkMult": 1.4,
+          "notes": "Each individual model chooses 2 wargear options, and each unit can have up to 2 of each wargear.",
+          "tiers": [
+            {
+              "models": 3,
+              "pts": 1
+            }
+          ],
+          "selectedTier": 0,
+          "wargear": [
+            "Dagger",
+            "Shield",
+            "Sling",
+            "Torch",
+            "Spear",
+            "Fist",
+            "2nd Dagger",
+            "2nd Shield",
+            "2nd Sling",
+            "2nd Torch",
+            "2nd Spear",
+            "2nd Fist"
+          ],
+          "selectedWargear": [],
+          "actions": [
+            {
+              "id": "_9ix5pn9",
+              "name": "Dagger",
+              "tag": "action",
+              "text": "Move 5\", Attack 2 (1\")",
+              "wargear": [
+                "Dagger",
+                "2nd Dagger"
+              ]
+            },
+            {
+              "id": "_k03egdr",
+              "name": "Shield",
+              "tag": "action",
+              "text": "Move 5\", Attack 1 (1\", piercing), Inflict 1 (1\", piercing, stunned)",
+              "wargear": [
+                "Shield",
+                "2nd Shield"
+              ]
+            },
+            {
+              "id": "_ynse0o7",
+              "name": "Sling",
+              "tag": "action",
+              "text": "Move 5\", Attack 1 (9\", piercing)",
+              "wargear": [
+                "Sling",
+                "2nd Sling"
+              ]
+            },
+            {
+              "id": "_q5goc0y",
+              "name": "Torch",
+              "tag": "action",
+              "text": "Move 5\", Inflict 2 (3\", cleave, vulnerable)",
+              "wargear": [
+                "Torch",
+                "2nd Torch"
+              ]
+            },
+            {
+              "id": "_oij7fzb",
+              "name": "Spear",
+              "tag": "action",
+              "text": "Move 5\", Attack 1 (3\", melee, piercing)",
+              "wargear": [
+                "Spear",
+                "2nd Spear"
+              ]
+            },
+            {
+              "id": "_2r6cn3b",
+              "name": "Fist",
+              "tag": "action",
+              "text": "Move 5\", Attack 1 (1\"), Inflict 2 (1\", snared)",
+              "wargear": [
+                "Fist",
+                "2nd Fist"
+              ]
+            },
+            {
+              "id": "_xsvcn5w",
+              "name": "Rush",
+              "tag": "action",
+              "text": "Move 5 + 1d3\"",
+              "wargear": []
+            },
+            {
+              "id": "_aq4gwaw",
+              "name": "Lots Of Stuff",
+              "tag": "passive",
+              "text": "When choosing an action, if at least 1 model in the unit has a wargear option, that action can be chosen as if all models had that wargear option. If the wargear was chosen twice in the unit, roll as if there were an additional model in the unit.",
+              "wargear": []
+            }
+          ],
+          "id": "_qjdgmr6"
+        },
+        {
+          "name": "Kobold Stack",
+          "tough": 6,
+          "wounds": 5,
+          "estAtk": 5,
+          "atkMult": null,
+          "notes": "",
+          "tiers": [
+            {
+              "models": 1,
+              "pts": 1
+            },
+            {
+              "models": 2,
+              "pts": 3
+            }
+          ],
+          "selectedTier": 0,
+          "wargear": [
+            "Sword",
+            "Pickaxe",
+            "Glaive"
+          ],
+          "selectedWargear": [],
+          "actions": [
+            {
+              "id": "_q07j0kb",
+              "name": "Sword",
+              "tag": "action",
+              "text": "Move 2\", Attack 5 (1\")",
+              "wargear": [
+                "Sword"
+              ]
+            },
+            {
+              "id": "_xz80jw9",
+              "name": "Pickaxe",
+              "tag": "action",
+              "text": "Move 2\", Attack 3 (1\", piercing)",
+              "wargear": [
+                "Pickaxe"
+              ]
+            },
+            {
+              "id": "_617e3xw",
+              "name": "Glaive",
+              "tag": "action",
+              "text": "Move 2\", Attack 3 (3\", melee, cleave)",
+              "wargear": [
+                "Glaive"
+              ]
+            },
+            {
+              "id": "_nq2nif4",
+              "name": "Wobble",
+              "tag": "action",
+              "text": "Move 2 + 1d3\"",
+              "wargear": []
+            },
+            {
+              "id": "_0av0reu",
+              "name": "Unstack",
+              "tag": "action",
+              "text": "Move 6 + 1d3\", Kobold Stack becomes Vulnerable until the end of your next turn",
+              "wargear": []
+            }
+          ],
+          "id": "_8i2oxk3"
+        },
+        {
+          "name": "Kobold Foxrider",
+          "tough": 3,
+          "wounds": 7,
+          "estAtk": 4,
+          "atkMult": null,
+          "notes": "",
+          "tiers": [
+            {
+              "models": 2,
+              "pts": 2
+            },
+            {
+              "models": 3,
+              "pts": 4
+            }
+          ],
+          "selectedTier": 0,
+          "wargear": [
+            "Sword",
+            "Glaive"
+          ],
+          "selectedWargear": [],
+          "actions": [
+            {
+              "id": "_ix5mc1e",
+              "name": "Sword",
+              "tag": "action",
+              "text": "Move 6\", Attack 4 (1\")",
+              "wargear": [
+                "Sword"
+              ]
+            },
+            {
+              "id": "_h4swsh7",
+              "name": "Glaive",
+              "tag": "action",
+              "text": "Move 6\", Attack 2 (3\", melee, cleave)",
+              "wargear": [
+                "Glaive"
+              ]
+            },
+            {
+              "id": "_3em1l5i",
+              "name": "Rush",
+              "tag": "action",
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
+            },
+            {
+              "id": "_7wxsq1t",
+              "name": "Smell Blood",
+              "tag": "passive",
+              "text": "When Kobold Foxrider moves directly towards an enemy unit that has been attacked this turn, its movement increases by 3\", and its attack increases by 2.",
+              "wargear": []
+            }
+          ],
+          "id": "_bhgt773"
+        },
+        {
+          "name": "Kobold Pyromancer",
+          "tough": 3,
+          "wounds": 14,
+          "estAtk": 10,
+          "atkMult": null,
+          "notes": "",
+          "tiers": [
+            {
+              "models": 1,
+              "pts": 3
+            }
+          ],
+          "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
+          "actions": [
+            {
+              "id": "_81zo3wn",
+              "name": "Strike",
+              "tag": "action",
+              "text": "Move 5\", Attack 10 (7\"), Inflict 10 (7\", vulnerable)",
+              "wargear": []
+            },
+            {
+              "id": "_9f9kf0s",
+              "name": "Inferno",
+              "tag": "action",
+              "text": "Move 5\", Attack 6 (5\", any number of targets), Inflict 6 (5\", vulnerable, any number of targets)",
+              "wargear": []
+            },
+            {
+              "id": "_hqlhrqv",
+              "name": "Fire Rush",
+              "tag": "action",
+              "text": "Move 5 + Xd3\", Receive Xd3 wounds (roll separately)",
+              "wargear": []
+            }
+          ],
+          "id": "_yfytmpd"
+        },
+        {
+          "name": "Kobold Champion",
+          "tough": 4,
+          "wounds": 9,
+          "estAtk": 7,
+          "atkMult": 1.8,
+          "notes": "",
+          "tiers": [
+            {
+              "models": 1,
+              "pts": 3
+            }
+          ],
+          "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
+          "actions": [
+            {
+              "id": "_qnh0l09",
+              "name": "Strike",
+              "tag": "action",
+              "text": "Move 7\" (flying), Attack 7 (1\", piercing)",
+              "wargear": []
+            },
+            {
+              "id": "_fem4mkf",
+              "name": "Rush",
+              "tag": "action",
+              "text": "Move 7 + 1d3\" (flying)",
+              "wargear": []
+            },
+            {
+              "id": "_qf24lko",
+              "name": "Duel",
+              "tag": "passive",
+              "text": "Kobold Champion has 6 toughness against all units except the closest enemy unit to Kobold Champion, or any units within 1\".",
+              "wargear": []
+            }
+          ],
+          "id": "_i13yfg4"
+        },
+        {
+          "name": "Kobold Thief",
+          "tough": 5,
+          "wounds": 9,
+          "estAtk": 9,
+          "atkMult": null,
+          "notes": "",
+          "tiers": [
+            {
+              "models": 1,
+              "pts": 3
+            }
+          ],
+          "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
+          "actions": [
+            {
+              "id": "_23bhpqb",
+              "name": "Strike",
+              "tag": "action",
+              "text": "Move 6\", Attack 9 (1\"), Inflict 9 (1\", disarmed)",
+              "wargear": []
+            },
+            {
+              "id": "_jwuhgfw",
+              "name": "Rush",
+              "tag": "action",
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
+            },
+            {
+              "id": "_z2r6ovr",
+              "name": "Cutpurse",
+              "tag": "passive",
+              "text": "Whenever an enemy unit within 1\" dies or becomes inflicted, Kobold Thief can immediately Move 4\" and Inflict 9 (1\", disarmed)",
+              "wargear": []
+            }
+          ],
+          "id": "_9c7efzj"
+        }
+      ]
     }
   ],
   "gameRules": [
@@ -1718,7 +2104,7 @@
     {
       "id": "_xmaz5x9",
       "title": "Board Setup",
-      "body": "The game is played on a central play area of 24\" × 24\". The full play surface may extend up to 36\" × 36\", but all deployment, objectives, and game rules refer to the central play area only. The extended area is just extra space for units to move. Far board edges refer to the 2 board edges of the 24\" area that players will deploy from.\n\nPlace 2 central objectives on the centreline of the board, at least 10\" apart. Then place 2 far objectives on each side, on a line 6\" from each far board edge, also at least 10\" apart. No objectives should be within 7\" of any other objective."
+      "body": "The game is played on a central play area of 24\" × 24\". The full play surface may extend up to 36\" × 36\", but all deployment, objectives, and game rules refer to the central play area only. The extended area is just extra space for units to move. Far board edges refer to the 2 board edges of the 24\" area that players will deploy from.\n\nPlace 2 central objectives on the centreline of the board, at least 10\" apart. Then place 2 far objectives on each side, on a line 6\" from each far board edge, also at least 10\" apart. No objectives should be within 7\" of any other objective (such that there is a 3\" gap between all objective zones)."
     },
     {
       "id": "_x6i0jh1",
@@ -1748,7 +2134,7 @@
     {
       "id": "_ewlq771",
       "title": "Attacking",
-      "body": "When a unit takes an action that calls for an attack, choose a valid target unit within range, then roll a number of dice equal to the attack's value for each model. Each die that equals or exceeds the target's Toughness inflicts 1 wound.\n\nAttacks with a range of 1\" are melee attacks by default, and attacks with a range of greater than 1\" are ranged, unless otherwise specified. Ranged attacks may target any unit within the stated range, but only models within range may contribute to the attack. Melee attacks can be drawn from any point on a model, or any point on a different model within 0.5\" in the same unit.\n\nA unit's ranged attacks become Inaccurate if that unit has been within 1\" of an enemy unit at any point during its current activation. Ranged attacks targeting a unit that is currently engaged in melee are also Inaccurate.\n\nThe following modifiers can be applied to attacks:\n\n**Piercing** - The target's toughness is treated as 2 lower\n**Cleave** - The attack rolls twice as many dice if the unit contains 2 or more models\n**Inaccurate** - The attack rolls half of the number of dice, rounded up\n\nSome attacks are labelled **Inflict** rather than Attack. An Inflict attack does not deal damage. Instead, if the attack would generate enough wounds to destroy the target model, the stated condition is applied to that unit, and a relevant token is applied. Unless otherwise specified, tokens are removed at the end of that player's turn. Below are common conditions:\n\n**Stunned** - The unit can't activate\n**Disarmed** - The unit can't make attacks or inflict\n**Snared** - The unit can't move\n**Slowed** - The unit can't move more than 3\" total during its turn\n**Staggered** - The unit's attacks have inaccurate\n**Execute** - The unit is killed"
+      "body": "When a unit takes an action that calls for an attack, choose a valid target unit within range, then roll a number of dice equal to the attack's value for each model. Each die that equals or exceeds the target's Toughness inflicts 1 wound.\n\nAttacks with a range of 1\" are melee attacks by default, and attacks with a range of greater than 1\" are ranged, unless otherwise specified. Ranged attacks may target any unit within the stated range, but only models within range may contribute to the attack. Melee attacks can be drawn from any point on a model, or any point on a different model within 0.5\" in the same unit.\n\nA unit's ranged attacks become Inaccurate if that unit has been within 1\" of an enemy unit at any point during its current activation. Ranged attacks targeting a unit that is currently engaged in melee are also Inaccurate.\n\nThe following modifiers can be applied to attacks:\n\n**Piercing** - The target's toughness is treated as 2 lower\n**Cleave** - The attack rolls twice as many dice if the unit contains 2 or more models\n**Inaccurate** - The attack rolls half of the number of dice, rounded up\n\nSome attacks are labelled **Inflict** rather than Attack. An Inflict attack does not deal damage. Instead, if the attack would generate enough wounds to destroy the target model, the stated condition is applied to that unit, and a relevant token is applied. Unless otherwise specified, tokens are removed at the end of that player's turn. Below are common conditions:\n\n**Stunned** - The unit can't activate\n**Disarmed** - The unit can't make attacks or inflict\n**Snared** - The unit can't move\n**Slowed** - The unit can't move more than 3\" total during its turn\n**Staggered** - The unit's attacks have inaccurate\n**Vulnerable** - Each successful hit from an attack applies 2 wounds instead of 1\n**Execute** - The unit is killed"
     },
     {
       "id": "_b1284tp",
