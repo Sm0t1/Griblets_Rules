@@ -1627,14 +1627,12 @@
           "id": "_878phxg"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Badger Friend",
           "tough": 4,
           "wounds": 20,
-          "estAtk": 12,
+          "estAtk": 10,
+          "atkMult": null,
+          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1642,27 +1640,29 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_hp8e64y",
+              "id": "_ws0fecg",
               "name": "Toss",
               "tag": "action",
-              "text": "Move 4\", Attack 10 (5\")"
+              "text": "Move 4\", Attack 9 (5\")",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_8kkbt84",
+              "id": "_lt75fab",
               "name": "Thump",
               "tag": "action",
-              "text": "Move 4\", Attack 6 (2\", melee, piercing)"
+              "text": "Move 4\", Attack 5 (2\", melee, piercing)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_t3unri0",
+              "id": "_istblgm",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 4 + 1d3\""
+              "text": "Move 4 + 1d3\"",
+              "wargear": []
             }
           ],
           "id": "_rst80yr"
