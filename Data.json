@@ -892,16 +892,12 @@
       "name": "Frogs",
       "units": [
         {
-          "notes": "",
-          "wargear": [
-            "Spear",
-            "Hammer",
-            "Blowgun"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
-          "id": "u1777987530042",
           "name": "Frog Warrior",
+          "tough": 4,
+          "wounds": 2,
+          "estAtk": 2,
+          "atkMult": null,
+          "notes": "",
           "tiers": [
             {
               "models": 4,
@@ -909,52 +905,56 @@
             }
           ],
           "selectedTier": 0,
-          "tough": 4,
-          "wounds": 2,
-          "estAtk": 2,
+          "wargear": [
+            "Spear",
+            "Hammer",
+            "Blowgun"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Spear"
-              ],
-              "id": "_cheumhv",
+              "id": "_w29g1jt",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 5\", Attack 1 (1\", piercing)"
+              "text": "Move 5\", Attack 1 (1\", piercing)",
+              "wargear": [
+                "Spear"
+              ]
             },
             {
-              "wargear": [
-                "Hammer"
-              ],
-              "id": "_t2b4og1",
+              "id": "_dmxvzfi",
               "name": "Hammer",
               "tag": "action",
-              "text": "Move 5\", Attack 2 (1\")"
+              "text": "Move 5\", Attack 2 (1\")",
+              "wargear": [
+                "Hammer"
+              ]
             },
             {
-              "wargear": [
-                "Blowgun"
-              ],
-              "id": "_avi3izo",
+              "id": "_ktdjpqq",
               "name": "Blowgun",
               "tag": "action",
-              "text": "Move 3\", Attack 2 (7\")"
+              "text": "Move 3\", Attack 2 (7\")",
+              "wargear": [
+                "Blowgun"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_k9y1seo",
+              "id": "_pxq6yhl",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 5 + 1d3\""
+              "text": "Move 5 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_sbd8jbs",
-              "name": "Slimy Mucus",
+              "id": "_qhxrkeq",
+              "name": "Frog Splat",
               "tag": "passive",
-              "text": "Allied models can freely move through Frog Warriors, as long as they end their move in a valid space."
+              "text": "Each time a frog warrior dies, reduce the remaining wounds that would be dealt to the unit by 2",
+              "wargear": []
             }
-          ]
+          ],
+          "id": "u1777987530042"
         },
         {
           "notes": "",
