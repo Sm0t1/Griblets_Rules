@@ -957,45 +957,49 @@
           "id": "u1777987530042"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": null,
-          "id": "u1777987749359",
           "name": "Frog Sentinel",
+          "tough": 5,
+          "wounds": 4,
+          "estAtk": 3,
+          "atkMult": null,
+          "notes": "",
           "tiers": [
             {
               "models": 3,
               "pts": 2
+            },
+            {
+              "models": 4,
+              "pts": 3
             }
           ],
           "selectedTier": 0,
-          "tough": 5,
-          "wounds": 4,
-          "estAtk": 3,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_rcfhu0x",
+              "id": "_o882kbu",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 4\", Attack 3 (1\")"
+              "text": "Move 4\", Attack 3 (1\")",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_py6in2g",
+              "id": "_83b7qp7",
               "name": "Poke",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (3\", melee)"
+              "text": "Move 2\", Attack 3 (3\", melee)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_8j5uyqf",
+              "id": "_t7bz4cz",
               "name": "Poison Cloud",
               "tag": "action",
-              "text": "Move 4\", Inflict 6 (3\", melee, all targets, staggered)"
+              "text": "Move 4\", Inflict 10 (3\", melee, all targets, staggered)",
+              "wargear": []
             }
-          ]
+          ],
+          "id": "u1777987749359"
         },
         {
           "notes": "",
@@ -1163,62 +1167,66 @@
           ]
         },
         {
+          "name": "Frog Shroom",
+          "tough": 2,
+          "wounds": 2,
+          "estAtk": 3,
+          "atkMult": null,
           "notes": "",
+          "tiers": [
+            {
+              "models": 4,
+              "pts": 1
+            },
+            {
+              "models": 5,
+              "pts": 2
+            }
+          ],
+          "selectedTier": 0,
           "wargear": [
             "Bow",
             "Cap",
             "Sword"
           ],
           "selectedWargear": [],
-          "atkMult": null,
-          "id": "u1778029458697",
-          "name": "Shroom",
-          "tiers": [
-            {
-              "models": 4,
-              "pts": 1
-            }
-          ],
-          "selectedTier": 0,
-          "tough": 2,
-          "wounds": 2,
-          "estAtk": 3,
           "actions": [
             {
-              "wargear": [
-                "Bow"
-              ],
-              "id": "_is86cfa",
+              "id": "_6j35dj9",
               "name": "Bow",
               "tag": "action",
-              "text": "Revive 1 model, Move 3\", Attack 3 (7\")"
+              "text": "Revive 1 model, Move 3\", Attack 3 (7\")",
+              "wargear": [
+                "Bow"
+              ]
             },
             {
-              "wargear": [
-                "Cap"
-              ],
-              "id": "_6vrtpbg",
+              "id": "_t14jnlz",
               "name": "Cap",
               "tag": "action",
-              "text": "Revive 1 model, Move 3\", Attack 2 (4\", piercing)"
+              "text": "Revive 1 model, Move 3\", Attack 2 (4\", piercing)",
+              "wargear": [
+                "Cap"
+              ]
             },
             {
-              "wargear": [
-                "Sword"
-              ],
-              "id": "_yfvm00h",
+              "id": "_msze97j",
               "name": "Sword",
               "tag": "action",
-              "text": "Revive 1 model, Move 6\", Attack 3 (1\")"
+              "text": "Revive 1 model, Move 6\", Attack 3 (1\")",
+              "wargear": [
+                "Sword"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_a2a1g14",
+              "id": "_14cdfho",
               "name": "Rush",
               "tag": "action",
-              "text": "Revive 1 model, Move 6 + 1d3\""
+              "text": "Revive 1 model, Move 6 + 1d3\"",
+              "wargear": []
             }
-          ]
+          ],
+          "id": "u1778029458697"
         },
         {
           "notes": "",
