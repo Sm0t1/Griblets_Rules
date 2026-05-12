@@ -27,18 +27,12 @@
       "name": "Dwarves",
       "units": [
         {
-          "notes": "Choose axe, sword, or mace",
-          "wargear": [
-            "Axe",
-            "Sword",
-            "Mace"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Dwarf Guard",
           "tough": 5,
           "wounds": 3,
           "estAtk": 3,
+          "atkMult": null,
+          "notes": "Choose Axe, Sword, or Mace",
           "tiers": [
             {
               "models": 3,
@@ -50,47 +44,53 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Axe",
+            "Sword",
+            "Mace"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Axe"
-              ],
-              "id": "_tgn0gtq",
+              "id": "_yol6f0c",
               "name": "Axe",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (1\")"
+              "text": "Move 2\", Attack 3 (1\")",
+              "wargear": [
+                "Axe"
+              ]
             },
             {
-              "wargear": [
-                "Sword"
-              ],
-              "id": "_l9ozqng",
+              "id": "_4v8c1r7",
               "name": "Sword",
               "tag": "action",
-              "text": "Move 2\", Attack 2 (1\", cleave)"
+              "text": "Move 2\", Attack 2 (1\", cleave)",
+              "wargear": [
+                "Sword"
+              ]
             },
             {
-              "wargear": [
-                "Mace"
-              ],
-              "id": "_dzz9t30",
+              "id": "_urt086o",
               "name": "Mace",
               "tag": "action",
-              "text": "Move 2\", Attack 2 (1\", piercing)"
+              "text": "Move 2\", Attack 2 (1\", piercing)",
+              "wargear": [
+                "Mace"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_j772zk9",
+              "id": "_84574wf",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 4 + 1d3\""
+              "text": "Move 4 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_nze0qxv",
+              "id": "_gaorg6e",
               "name": "Ironclad",
               "tag": "passive",
-              "text": "When wounds are allocated to Dwarf Guard, reduce the total wounds by 1d3."
+              "text": "When wounds are allocated to Dwarf Guard, reduce the total wounds by 1d3.",
+              "wargear": []
             }
           ],
           "id": "u1777982718320"
@@ -264,7 +264,19 @@
           "id": "u1777984341388"
         },
         {
-          "notes": "Choose bow, or 2 of sword, hammer, shield, and axe",
+          "name": "Dwarf Ranger",
+          "tough": 3,
+          "wounds": 3,
+          "estAtk": 3,
+          "atkMult": null,
+          "notes": "Choose Bow, or 2 of Sword, Hammer, Shield, and Axe",
+          "tiers": [
+            {
+              "models": 3,
+              "pts": 1
+            }
+          ],
+          "selectedTier": 0,
           "wargear": [
             "Bow",
             "Sword",
@@ -273,77 +285,65 @@
             "Axe"
           ],
           "selectedWargear": [],
-          "atkMult": null,
-          "name": "Dwarf Ranger",
-          "tough": 3,
-          "wounds": 3,
-          "estAtk": 3,
-          "tiers": [
-            {
-              "models": 3,
-              "pts": 1
-            }
-          ],
-          "selectedTier": 0,
           "actions": [
             {
-              "wargear": [
-                "Bow"
-              ],
-              "id": "_ru2cbi8",
+              "id": "_3p0fuob",
               "name": "Bow",
               "tag": "action",
-              "text": "Move 3\", Attack 3 (8\")"
+              "text": "Move 3\", Attack 3 (8\")",
+              "wargear": [
+                "Bow"
+              ]
             },
             {
-              "wargear": [
-                "Sword"
-              ],
-              "id": "_rdmurut",
+              "id": "_lk7b77t",
               "name": "Sword",
               "tag": "action",
-              "text": "Move 5\", Attack 3 (1\")"
+              "text": "Move 5\", Attack 3 (1\")",
+              "wargear": [
+                "Sword"
+              ]
             },
             {
-              "wargear": [
-                "Axe"
-              ],
-              "id": "_309znjm",
+              "id": "_6tea96c",
               "name": "Axe",
               "tag": "action",
-              "text": "Move 5\", Attack 2 (1\", cleave)"
+              "text": "Move 5\", Attack 2 (1\", cleave)",
+              "wargear": [
+                "Axe"
+              ]
             },
             {
-              "wargear": [
-                "Hammer"
-              ],
-              "id": "_0jtv0sa",
+              "id": "_dnyyevk",
               "name": "Hammer",
               "tag": "action",
-              "text": "Move 5\", Attack 2 (1\", piercing)"
+              "text": "Move 5\", Attack 2 (1\", piercing)",
+              "wargear": [
+                "Hammer"
+              ]
             },
             {
-              "wargear": [
-                "Shield"
-              ],
-              "id": "_6uyzjy1",
+              "id": "_31t54xq",
               "name": "Shield",
               "tag": "action",
-              "text": "Move 5\", Inflict 5 (1\", stunned)"
+              "text": "Move 5\", Inflict 7 (1\", stunned)",
+              "wargear": [
+                "Shield"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_n7nr8k1",
+              "id": "_ht76j2u",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 5 + 1d3\""
+              "text": "Move 5 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_m3evc0f",
+              "id": "_cttb27l",
               "name": "Call to Arms",
               "tag": "passive",
-              "text": "If movement is taken directly towards an objective an enemy is on, and can score from, increase that movement by 3”"
+              "text": "If movement is taken directly towards an objective an enemy is on, and can score from, increase that movement by 3”",
+              "wargear": []
             }
           ],
           "id": "u1777985146787"
@@ -383,17 +383,12 @@
           "id": "u1777985260128"
         },
         {
-          "notes": "",
-          "wargear": [
-            "Hammer",
-            "Axe"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Dwarf Elite",
           "tough": 6,
           "wounds": 5,
           "estAtk": 5,
+          "atkMult": null,
+          "notes": "Choose Hammer or Axe",
           "tiers": [
             {
               "models": 1,
@@ -405,31 +400,36 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Hammer",
+            "Axe"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Axe"
-              ],
-              "id": "_v03fvxq",
+              "id": "_j68i73d",
               "name": "Axe",
               "tag": "action",
-              "text": "Move 5”, Attack 5 (1”), Inflict 10 (1”, push a unit 2\" in a direction)"
+              "text": "Move 5”, Attack 5 (1”), Inflict 10 (1”, push a unit 2\" in a direction)",
+              "wargear": [
+                "Axe"
+              ]
             },
             {
-              "wargear": [
-                "Hammer"
-              ],
-              "id": "_t7ugp7a",
+              "id": "_ukqpiqq",
               "name": "Hammer",
               "tag": "action",
-              "text": "Move 5”, Attack 3 (1”, piercing) Inflict 6 (1”, piercing, push unit 2” in a direction)"
+              "text": "Move 5”, Attack 3 (1”, piercing) Inflict 6 (1”, piercing, push unit 2” in a direction)",
+              "wargear": [
+                "Hammer"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_uaxp8z6",
+              "id": "_jcsbuxr",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 5 + 1d3\""
+              "text": "Move 5 + 1d3\"",
+              "wargear": []
             }
           ],
           "id": "u1777985512461"
@@ -504,19 +504,12 @@
       "name": "Lizards",
       "units": [
         {
-          "notes": "",
-          "wargear": [
-            "spear",
-            "club",
-            "stick",
-            "blowgun"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Lizard Warrior",
           "tough": 2,
           "wounds": 3,
           "estAtk": 2,
+          "atkMult": null,
+          "notes": "Choose Spear, Club, Stick or Blowgun",
           "tiers": [
             {
               "models": 4,
@@ -524,56 +517,63 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "spear",
+            "club",
+            "stick",
+            "blowgun"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "spear"
-              ],
-              "id": "_ilmcf63",
+              "id": "_zu502rm",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 6\", Attack 1 (1\", piercing)"
+              "text": "Move 6\", Attack 1 (1\", piercing)",
+              "wargear": [
+                "spear"
+              ]
             },
             {
-              "wargear": [
-                "club"
-              ],
-              "id": "_ndm4lsg",
+              "id": "_m803tst",
               "name": "Club",
               "tag": "action",
-              "text": "Move 6\", Attack 1 (1\"), Inflict 3 (1\", staggered)"
+              "text": "Move 6\", Attack 1 (1\"), Inflict 3 (1\", staggered)",
+              "wargear": [
+                "club"
+              ]
             },
             {
-              "wargear": [
-                "stick"
-              ],
-              "id": "_lvr168t",
+              "id": "_3qubeuh",
               "name": "Stick",
               "tag": "action",
-              "text": "Move 6\", Attack 2 (1\")"
+              "text": "Move 6\", Attack 2 (1\")",
+              "wargear": [
+                "stick"
+              ]
             },
             {
-              "wargear": [
-                "blowgun"
-              ],
-              "id": "_ci02uyz",
+              "id": "_g70ztrl",
               "name": "Blowgun",
               "tag": "action",
-              "text": "Move 3\", Attack 2 (7\")"
+              "text": "Move 3\", Attack 2 (7\")",
+              "wargear": [
+                "blowgun"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_mcss6jk",
+              "id": "_2jyp9cg",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_6yn7qo6",
+              "id": "_xhhe4p0",
               "name": "Cry For Help",
               "tag": "passive",
-              "text": "When Lizard Warrior receives an Enrage token, it can be immediately moved to any other unit within 6\", and Lizard Warrior can move up to 3\"."
+              "text": "When Lizard Warrior receives an Enrage token, it can be immediately moved to any other unit within 6\", and Lizard Warrior can move up to 3\".",
+              "wargear": []
             }
           ],
           "id": "u1778033657897"
@@ -892,18 +892,12 @@
       "name": "Frogs",
       "units": [
         {
-          "notes": "",
-          "wargear": [
-            "Spear",
-            "Hammer",
-            "Blowgun"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Frog Warrior",
           "tough": 4,
           "wounds": 2,
           "estAtk": 2,
+          "atkMult": null,
+          "notes": "Choose Hammer, Spear or Blowgun",
           "tiers": [
             {
               "models": 4,
@@ -911,47 +905,53 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Spear",
+            "Hammer",
+            "Blowgun"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Spear"
-              ],
-              "id": "_w29g1jt",
+              "id": "_zutpbox",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 5\", Attack 1 (1\", piercing)"
+              "text": "Move 5\", Attack 1 (1\", piercing)",
+              "wargear": [
+                "Spear"
+              ]
             },
             {
-              "wargear": [
-                "Hammer"
-              ],
-              "id": "_dmxvzfi",
+              "id": "_g1950u8",
               "name": "Hammer",
               "tag": "action",
-              "text": "Move 5\", Attack 2 (1\")"
+              "text": "Move 5\", Attack 2 (1\")",
+              "wargear": [
+                "Hammer"
+              ]
             },
             {
-              "wargear": [
-                "Blowgun"
-              ],
-              "id": "_ktdjpqq",
+              "id": "_qupjfkd",
               "name": "Blowgun",
               "tag": "action",
-              "text": "Move 3\", Attack 2 (7\")"
+              "text": "Move 3\", Attack 2 (7\")",
+              "wargear": [
+                "Blowgun"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_pxq6yhl",
+              "id": "_1hime03",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 5 + 1d3\""
+              "text": "Move 5 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_qhxrkeq",
+              "id": "_frfnsn5",
               "name": "Frog Splat",
               "tag": "passive",
-              "text": "Each time a frog warrior dies, reduce the remaining wounds that would be dealt to the unit by 2"
+              "text": "Each time a frog warrior dies, reduce the remaining wounds that would be dealt to the unit by 2",
+              "wargear": []
             }
           ],
           "id": "u1777987530042"
@@ -1167,18 +1167,12 @@
           ]
         },
         {
-          "notes": "",
-          "wargear": [
-            "Bow",
-            "Cap",
-            "Sword"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Frog Shroom",
           "tough": 2,
           "wounds": 2,
           "estAtk": 3,
+          "atkMult": null,
+          "notes": "Choose Bow, Cap or Sword",
           "tiers": [
             {
               "models": 4,
@@ -1190,40 +1184,46 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Bow",
+            "Cap",
+            "Sword"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Bow"
-              ],
-              "id": "_6j35dj9",
+              "id": "_veebgpt",
               "name": "Bow",
               "tag": "action",
-              "text": "Revive 1 model, Move 3\", Attack 3 (7\")"
+              "text": "Revive 1 model, Move 3\", Attack 3 (7\")",
+              "wargear": [
+                "Bow"
+              ]
             },
             {
-              "wargear": [
-                "Cap"
-              ],
-              "id": "_t14jnlz",
+              "id": "_ggz6d7g",
               "name": "Cap",
               "tag": "action",
-              "text": "Revive 1 model, Move 3\", Attack 2 (4\", piercing)"
+              "text": "Revive 1 model, Move 3\", Attack 2 (4\", piercing)",
+              "wargear": [
+                "Cap"
+              ]
             },
             {
-              "wargear": [
-                "Sword"
-              ],
-              "id": "_msze97j",
+              "id": "_lac4zmm",
               "name": "Sword",
               "tag": "action",
-              "text": "Revive 1 model, Move 6\", Attack 3 (1\")"
+              "text": "Revive 1 model, Move 6\", Attack 3 (1\")",
+              "wargear": [
+                "Sword"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_14cdfho",
+              "id": "_6ae3boo",
               "name": "Rush",
               "tag": "action",
-              "text": "Revive 1 model, Move 6 + 1d3\""
+              "text": "Revive 1 model, Move 6 + 1d3\"",
+              "wargear": []
             }
           ],
           "id": "u1778029458697"
@@ -1339,18 +1339,12 @@
       "name": "Gnomes",
       "units": [
         {
-          "notes": "Choose spear, mallet, or bow",
-          "wargear": [
-            "Spear",
-            "Mallet",
-            "Bow"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Footsoldier",
           "tough": 4,
           "wounds": 2,
           "estAtk": 3,
+          "atkMult": null,
+          "notes": "Choose Spear, Mallet, or Bow",
           "tiers": [
             {
               "models": 3,
@@ -1362,47 +1356,53 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Spear",
+            "Mallet",
+            "Bow"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Spear"
-              ],
-              "id": "_hl813ud",
+              "id": "_8l0mym8",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 6\", Attack 3 (3\", melee)"
+              "text": "Move 6\", Attack 3 (3\", melee)",
+              "wargear": [
+                "Spear"
+              ]
             },
             {
-              "wargear": [
-                "Mallet"
-              ],
-              "id": "_yfh0jl7",
+              "id": "_a07a02g",
               "name": "Mallet",
               "tag": "action",
-              "text": "Move 6\", Attack 2 (1\", piercing)"
+              "text": "Move 6\", Attack 2 (1\", piercing)",
+              "wargear": [
+                "Mallet"
+              ]
             },
             {
-              "wargear": [
-                "Bow"
-              ],
-              "id": "_v88sgwm",
+              "id": "_76lbjmz",
               "name": "Bow",
               "tag": "action",
-              "text": "Move 4\", Attack 3 (7\")"
+              "text": "Move 4\", Attack 3 (7\")",
+              "wargear": [
+                "Bow"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_l9ic87h",
+              "id": "_9cez05i",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_2yskdq1",
+              "id": "_5f03f6u",
               "name": "Poof",
               "tag": "passive",
-              "text": "When Gnome Footsoldiers are deployed, they can instead be placed inside of an  obstacle, as if with hideaway. If they are deployed this way, they don't take an action."
+              "text": "When Gnome Footsoldiers are deployed, they can instead be placed inside of an  obstacle, as if with hideaway. If they are deployed this way, they don't take an action.",
+              "wargear": []
             }
           ],
           "id": "_2fdwud6"
@@ -1584,17 +1584,12 @@
           "id": "_p4lunoz"
         },
         {
-          "notes": "",
-          "wargear": [
-            "Spear",
-            "Bow"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Mouserider",
           "tough": 3,
           "wounds": 10,
           "estAtk": 9,
+          "atkMult": null,
+          "notes": "Choose Spear or Bow",
           "tiers": [
             {
               "models": 1,
@@ -1602,38 +1597,43 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Spear",
+            "Bow"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Spear"
-              ],
-              "id": "_f0wqlvm",
+              "id": "_l4n3k92",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 8\", Attack 5 (3\", melee, piercing)"
+              "text": "Move 8\", Attack 5 (3\", melee, piercing)",
+              "wargear": [
+                "Spear"
+              ]
             },
             {
-              "wargear": [
-                "Bow"
-              ],
-              "id": "_y5d7w1x",
+              "id": "_g6plk88",
               "name": "Bow",
               "tag": "action",
-              "text": "Move 6\", Attack 9 (7\")"
+              "text": "Move 6\", Attack 9 (7\")",
+              "wargear": [
+                "Bow"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_i2dfo8s",
+              "id": "_xsjo9g6",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 8 + 1d3\""
+              "text": "Move 8 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_vixpwhh",
+              "id": "_fv8cdby",
               "name": "Mighty Charge",
               "tag": "passive",
-              "text": "On the turn Gnome Mouserider is deployed, it can attack, and move 6\" further."
+              "text": "On the turn Gnome Mouserider is deployed, it can attack, and move 6\" further.",
+              "wargear": []
             }
           ],
           "id": "_878phxg"
@@ -1918,17 +1918,12 @@
           "id": "_8i2oxk3"
         },
         {
-          "notes": "",
-          "wargear": [
-            "Sword",
-            "Glaive"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Kobold Foxrider",
           "tough": 3,
           "wounds": 7,
           "estAtk": 4,
+          "atkMult": null,
+          "notes": "Choose Sword or Glaive",
           "tiers": [
             {
               "models": 2,
@@ -1940,38 +1935,43 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Sword",
+            "Glaive"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Sword"
-              ],
-              "id": "_ix5mc1e",
+              "id": "_d0rr6zb",
               "name": "Sword",
               "tag": "action",
-              "text": "Move 6\", Attack 4 (1\")"
+              "text": "Move 6\", Attack 4 (1\")",
+              "wargear": [
+                "Sword"
+              ]
             },
             {
-              "wargear": [
-                "Glaive"
-              ],
-              "id": "_h4swsh7",
+              "id": "_b25duyt",
               "name": "Glaive",
               "tag": "action",
-              "text": "Move 6\", Attack 2 (3\", melee, cleave)"
+              "text": "Move 6\", Attack 2 (3\", melee, cleave)",
+              "wargear": [
+                "Glaive"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_3em1l5i",
+              "id": "_ldnlygu",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_7wxsq1t",
+              "id": "_kywt1xf",
               "name": "Smell Blood",
               "tag": "passive",
-              "text": "When Kobold Foxrider moves directly towards an enemy unit that has been attacked this turn, its movement increases by 3\", and its attack increases by 2."
+              "text": "When Kobold Foxrider moves directly towards an enemy unit that has been attacked this turn, its movement increases by 3\", and its attack increases by 2 (after modifiers).",
+              "wargear": []
             }
           ],
           "id": "_bhgt773"
