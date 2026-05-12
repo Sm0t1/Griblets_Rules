@@ -480,24 +480,24 @@
     {
       "rules": [
         {
-          "id": "_uxqgcod",
+          "id": "_43df8d9",
           "title": "Enrage (Passive)",
           "desc": "Whenever a unit takes damage, place an enrage token on that unit if it does not already have one. At the end of your turn, remove all enrage tokens from all units. During your turn, when you activate a unit with an enrage token, it can move an additional 1d3”. If the unit attacks, it may reroll each attack die once."
         },
         {
-          "id": "_6b606a6",
+          "id": "_ixrf89n",
           "title": "Prod (Manoeuver)",
           "desc": "Choose a unit within 3” of an allied unit. That unit receives 1 wound."
         },
         {
-          "id": "_gimdtde",
+          "id": "_twy0hfz",
           "title": "Thrash (Manoeuver)",
           "desc": "Choose an allied unit with an enrage token. Remove the token. That unit is able to be activated an additional time this turn, with normal activation cost."
         },
         {
-          "id": "_r7xl45m",
+          "id": "_dqh63us",
           "title": "Stampede (Manoeuver)",
-          "desc": "Choose an enraged unit. When that unit moves this turn, all enemy units with equal or lower points cost that would be in the path of the movement are moved to the closest legal position to allow the movement. If a unit is not pushed, it can still be ignored when moving, but the stampede unit can't end its movement overlapping with a unit it can't push. This movement also ignores engagement."
+          "desc": "Choose an allied unit. When that unit moves this turn, all enemy units with equal or lower points cost that would be in the path of the movement are moved to the closest legal position to allow the movement. If a unit is not pushed, it can still be ignored when moving, but the stampede unit can't end its movement overlapping with a unit it can't push. This movement also ignores engagement."
         }
       ],
       "id": "a1777983563069",
@@ -1002,12 +1002,14 @@
           "id": "u1777987749359"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": 2,
           "name": "Frog Elite",
           "tough": 5,
           "wounds": 5,
           "estAtk": 4,
-          "atkMult": 2,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1019,29 +1021,27 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_hjllob0",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 4\", Attack 4 (1\", piercing)",
-              "wargear": []
+              "text": "Move 4\", Attack 4 (1\", piercing)"
             },
             {
+              "wargear": [],
               "id": "_egihp2e",
               "name": "Leap",
               "tag": "action",
-              "text": "Move 4 + 2d3\" (flying)",
-              "wargear": []
+              "text": "Move 4 + 2d3\" (flying)"
             },
             {
+              "wargear": [],
               "id": "_wuw8vdt",
               "name": "Air Tackle",
               "tag": "action",
-              "text": "Move 4 + 2d3\", Attack 4 (1\", piercing), Frog Elite unit immediately receives 3 attacks per model.",
-              "wargear": []
+              "text": "Move 4 + 2d3\", Attack 4 (1\", piercing), Frog Elite unit immediately receives 3 attacks per model."
             }
           ],
           "id": "u1778028192676"
