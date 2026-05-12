@@ -1339,18 +1339,12 @@
       "name": "Gnomes",
       "units": [
         {
-          "notes": "Choose spear, mallet, or bow",
-          "wargear": [
-            "Spear",
-            "Mallet",
-            "Bow"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Footsoldier",
           "tough": 4,
           "wounds": 2,
           "estAtk": 3,
+          "atkMult": null,
+          "notes": "Choose spear, mallet, or bow",
           "tiers": [
             {
               "models": 3,
@@ -1358,47 +1352,53 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Spear",
+            "Mallet",
+            "Bow"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Spear"
-              ],
-              "id": "_lt4knm8",
+              "id": "_xeqqf0g",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 6\", Attack 3 (3\", melee)"
+              "text": "Move 6\", Attack 3 (3\", melee)",
+              "wargear": [
+                "Spear"
+              ]
             },
             {
-              "wargear": [
-                "Mallet"
-              ],
-              "id": "_0jz0uf5",
+              "id": "_s3ndpax",
               "name": "Mallet",
               "tag": "action",
-              "text": "Move 6\", Attack 2 (1\", piercing)"
+              "text": "Move 6\", Attack 2 (1\", piercing)",
+              "wargear": [
+                "Mallet"
+              ]
             },
             {
-              "wargear": [
-                "Bow"
-              ],
-              "id": "_b8jsjpi",
+              "id": "_757tul8",
               "name": "Bow",
               "tag": "action",
-              "text": "Move 4\", Attack 3 (7\")"
+              "text": "Move 4\", Attack 3 (7\")",
+              "wargear": [
+                "Bow"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_b6gzwgb",
+              "id": "_orm5wzg",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_spsfhhi",
-              "name": "Bush Brawl",
+              "id": "_h1c1qcc",
+              "name": "Poof",
               "tag": "passive",
-              "text": "Melee attacks against models in this unit can be affected by obscuring cover."
+              "text": "When Gnome Footsoldiers are deployed, they can instead be placed inside of an  obstacle, as if with hideaway. If they are deployed this way, they don't take an action.",
+              "wargear": []
             }
           ],
           "id": "_2fdwud6"
