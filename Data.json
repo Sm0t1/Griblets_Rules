@@ -1498,14 +1498,12 @@
           "id": "_5asb6ln"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Fisherman",
           "tough": 3,
-          "wounds": 6,
-          "estAtk": 7,
+          "wounds": 7,
+          "estAtk": 5,
+          "atkMult": 2,
+          "notes": "",
           "tiers": [
             {
               "models": 2,
@@ -1513,27 +1511,29 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_osfb52n",
+              "id": "_3zuo9gi",
               "name": "Fish",
               "tag": "action",
-              "text": "Move 6\", Inflict 7 (5\", piercing)"
+              "text": "Move 6\", Inflict 10 (5\", piercing, snared, vulnerable)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_qz2dmex",
+              "id": "_tupbj1l",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_650gfsl",
+              "id": "_3hrli7x",
               "name": "Feed",
               "tag": "action",
-              "text": "Move 6\", Allied unit within 3\" heals 1d3 wounds"
+              "text": "Move 6\", Allied unit within 3\" heals 1d3 wounds",
+              "wargear": []
             }
           ],
           "id": "_9xffyfw"
