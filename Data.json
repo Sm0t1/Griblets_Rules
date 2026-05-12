@@ -1349,6 +1349,10 @@
             {
               "models": 3,
               "pts": 1
+            },
+            {
+              "models": 4,
+              "pts": 2
             }
           ],
           "selectedTier": 0,
@@ -1360,7 +1364,7 @@
           "selectedWargear": [],
           "actions": [
             {
-              "id": "_xeqqf0g",
+              "id": "_hl813ud",
               "name": "Spear",
               "tag": "action",
               "text": "Move 6\", Attack 3 (3\", melee)",
@@ -1369,7 +1373,7 @@
               ]
             },
             {
-              "id": "_s3ndpax",
+              "id": "_yfh0jl7",
               "name": "Mallet",
               "tag": "action",
               "text": "Move 6\", Attack 2 (1\", piercing)",
@@ -1378,7 +1382,7 @@
               ]
             },
             {
-              "id": "_757tul8",
+              "id": "_v88sgwm",
               "name": "Bow",
               "tag": "action",
               "text": "Move 4\", Attack 3 (7\")",
@@ -1387,14 +1391,14 @@
               ]
             },
             {
-              "id": "_orm5wzg",
+              "id": "_l9ic87h",
               "name": "Rush",
               "tag": "action",
               "text": "Move 6 + 1d3\"",
               "wargear": []
             },
             {
-              "id": "_h1c1qcc",
+              "id": "_2yskdq1",
               "name": "Poof",
               "tag": "passive",
               "text": "When Gnome Footsoldiers are deployed, they can instead be placed inside of an  obstacle, as if with hideaway. If they are deployed this way, they don't take an action.",
