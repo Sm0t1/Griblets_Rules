@@ -502,19 +502,12 @@
       "name": "Lizards",
       "units": [
         {
-          "notes": "Choose Spear, Club, Stick or Blowgun",
-          "wargear": [
-            "spear",
-            "club",
-            "stick",
-            "blowgun"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Lizard Warrior",
           "tough": 2,
           "wounds": 3,
           "estAtk": 2,
+          "atkMult": null,
+          "notes": "Choose Spear, Club, Stick or Blowgun",
           "tiers": [
             {
               "models": 4,
@@ -525,68 +518,77 @@
               "pts": 2
             }
           ],
-          "selectedTier": 1,
+          "selectedTier": 0,
+          "wargear": [
+            "spear",
+            "club",
+            "stick",
+            "blowgun"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "spear"
-              ],
-              "id": "_rctyc42",
+              "id": "_b9hy8wf",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 6\", Attack 1 (1\", piercing)"
+              "text": "Move 6\", Attack 1 (3\", melee, piercing)",
+              "wargear": [
+                "spear"
+              ]
             },
             {
-              "wargear": [
-                "club"
-              ],
-              "id": "_gzbw1os",
+              "id": "_z42000v",
               "name": "Club",
               "tag": "action",
-              "text": "Move 6\", Attack 1 (1\"), Inflict 3 (1\", staggered)"
+              "text": "Move 6\", Attack 1 (1\"), Inflict 3 (1\", staggered)",
+              "wargear": [
+                "club"
+              ]
             },
             {
-              "wargear": [
-                "stick"
-              ],
-              "id": "_du5dst6",
+              "id": "_z2z79n1",
               "name": "Stick",
               "tag": "action",
-              "text": "Move 6\", Attack 2 (1\")"
+              "text": "Move 6\", Attack 2 (1\")",
+              "wargear": [
+                "stick"
+              ]
             },
             {
-              "wargear": [
-                "blowgun"
-              ],
-              "id": "_dvzrpmq",
+              "id": "_rsdmidq",
               "name": "Blowgun",
               "tag": "action",
-              "text": "Move 3\", Attack 2 (7\")"
+              "text": "Move 3\", Attack 2 (7\")",
+              "wargear": [
+                "blowgun"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_g18dmed",
+              "id": "_57x6r78",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_sai7fpw",
+              "id": "_f0b3qkc",
               "name": "Cry For Help",
               "tag": "passive",
-              "text": "When Lizard Warrior receives an Enrage token, it can be immediately moved to any other unit within 6\", and Lizard Warrior can move up to 3\"."
+              "text": "When Lizard Warrior receives an Enrage token, it can be immediately moved to any other unit within 6\", and Lizard Warrior can move up to 3\".",
+              "wargear": []
             }
           ],
           "id": "u1778033657897"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": null,
           "name": "Lizard Shaman",
           "tough": 4,
           "wounds": 8,
           "estAtk": 6,
-          "atkMult": null,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -594,29 +596,27 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_lw5d6ye",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 5\", Attack 6 (1\")",
-              "wargear": []
+              "text": "Move 5\", Attack 6 (1\")"
             },
             {
+              "wargear": [],
               "id": "_tqqaog3",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 5 + 1d3\"",
-              "wargear": []
+              "text": "Move 5 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_qlbounq",
               "name": "Bonespeak",
               "tag": "action",
-              "text": "Move 3\", Choose a dead allied unit, place all models on battlefield within 1\", that unit takes 1 action, remove that unit",
-              "wargear": []
+              "text": "Move 3\", Choose a dead allied unit, place all models on battlefield within 1\", that unit takes 1 action, remove that unit"
             }
           ],
           "id": "u1778033857918"
@@ -783,12 +783,14 @@
           "id": "u1778034677488"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": 2,
           "name": "Lizard Outrider",
           "tough": 5,
           "wounds": 2,
           "estAtk": 2,
-          "atkMult": 2,
-          "notes": "",
           "tiers": [
             {
               "models": 3,
@@ -800,33 +802,33 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_1f6bnms",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 9 + 1d3\", Attack 2 (1\")",
-              "wargear": []
+              "text": "Move 9 + 1d3\", Attack 2 (1\")"
             },
             {
+              "wargear": [],
               "id": "_627i6ao",
               "name": "Into the Fray",
               "tag": "passive",
-              "text": "If Lizard Outrider attacks a unit that has already been attacked this turn, its attacks gain piercing.",
-              "wargear": []
+              "text": "If Lizard Outrider attacks a unit that has already been attacked this turn, its attacks gain piercing."
             }
           ],
           "id": "u1778034866910"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": null,
           "name": "Lizard Chieftan",
           "tough": 3,
           "wounds": 7,
           "estAtk": 1,
-          "atkMult": null,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -834,29 +836,27 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_0jnd44q",
               "name": "Command",
               "tag": "action",
-              "text": "Move 6\", Choose a unit within 3\", it gains an enrage token",
-              "wargear": []
+              "text": "Move 6\", Choose a unit within 3\", it gains an enrage token"
             },
             {
+              "wargear": [],
               "id": "_r0wtwyb",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\"",
-              "wargear": []
+              "text": "Move 6 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_q355rvw",
               "name": "Battle Chant",
               "tag": "passive",
-              "text": "The first time during a turn another allied unit within 3\" would be killed, it instead lives with 1 remaining wound.",
-              "wargear": []
+              "text": "The first time during a turn another allied unit within 3\" would be killed, it instead lives with 1 remaining wound."
             }
           ],
           "id": "_xdip35a"
