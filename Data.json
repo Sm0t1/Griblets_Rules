@@ -637,14 +637,14 @@
           "selectedWargear": [],
           "actions": [
             {
-              "id": "_wdk3tjp",
+              "id": "_col36xj",
               "name": "Flyby",
               "tag": "action",
               "text": "Move 8\", Attack 3 (1\", piercing), Move 4\"",
               "wargear": []
             },
             {
-              "id": "_2su82lj",
+              "id": "_0tkrgnc",
               "name": "Carry",
               "tag": "action",
               "text": "Move 8\" (flying), Attack 4 (1\"), Inflict 8 (1\", place all models within 1\" of Lizard Birdrider at end of activation), Move 4\" (flying)",
