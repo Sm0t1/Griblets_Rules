@@ -1533,14 +1533,12 @@
           "id": "_9xffyfw"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Sled",
           "tough": 3,
           "wounds": 8,
-          "estAtk": 5,
+          "estAtk": 3,
+          "atkMult": 2,
+          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1552,27 +1550,29 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_p0i77xc",
+              "id": "_mt5zuz7",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 7\", Attack 5 (3\", melee)"
+              "text": "Move 7\", Attack 3 (3\", melee, piercing)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_liv12j1",
+              "id": "_b57k48z",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 9 + 1d3\""
+              "text": "Move 9 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_6cqc05h",
+              "id": "_w2we7i4",
               "name": "Hitch A Ride",
               "tag": "passive",
-              "text": "If any allied units with equal or less remaining wounds come within 1\" of Gnome Sled during its movement, they can immediately move up to 5\" directly towards Gnome Sled."
+              "text": "If any allied units with equal or less remaining wounds come within 1\" of Gnome Sled during its movement, they can immediately move up to 5\" directly towards Gnome Sled.",
+              "wargear": []
             }
           ],
           "id": "_p4lunoz"
