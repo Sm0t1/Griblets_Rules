@@ -1420,7 +1420,7 @@
               "pts": 3
             }
           ],
-          "selectedTier": 1,
+          "selectedTier": 0,
           "actions": [
             {
               "wargear": [],
@@ -1465,7 +1465,7 @@
               "pts": 3
             }
           ],
-          "selectedTier": 0,
+          "selectedTier": 1,
           "actions": [
             {
               "wargear": [],
@@ -1533,14 +1533,12 @@
           "id": "_9xffyfw"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Sled",
-          "tough": 5,
-          "wounds": 5,
-          "estAtk": 6,
+          "tough": 3,
+          "wounds": 8,
+          "estAtk": 5,
+          "atkMult": null,
+          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1552,27 +1550,29 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_xxlj4fe",
+              "id": "_p0i77xc",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 7\", Attack 6 (3\", melee)"
+              "text": "Move 7\", Attack 5 (3\", melee)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_0hon1ya",
+              "id": "_liv12j1",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 9 + 1d3\""
+              "text": "Move 9 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_k9gpzau",
+              "id": "_6cqc05h",
               "name": "Hitch A Ride",
               "tag": "passive",
-              "text": "If any allied units with equal or less remaining wounds come within 1\" of Gnome Sled during its movement, they can immediately move up to 5\" directly towards Gnome Sled."
+              "text": "If any allied units with equal or less remaining wounds come within 1\" of Gnome Sled during its movement, they can immediately move up to 5\" directly towards Gnome Sled.",
+              "wargear": []
             }
           ],
           "id": "_p4lunoz"
@@ -1843,12 +1843,18 @@
           "id": "_qjdgmr6"
         },
         {
+          "notes": "",
+          "wargear": [
+            "Sword",
+            "Pickaxe",
+            "Glaive"
+          ],
+          "selectedWargear": [],
+          "atkMult": null,
           "name": "Kobold Stack",
           "tough": 6,
           "wounds": 5,
           "estAtk": 5,
-          "atkMult": null,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1860,53 +1866,47 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [
-            "Sword",
-            "Pickaxe",
-            "Glaive"
-          ],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [
+                "Sword"
+              ],
               "id": "_80m7xbt",
               "name": "Sword",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (1\", cleave)",
-              "wargear": [
-                "Sword"
-              ]
+              "text": "Move 2\", Attack 3 (1\", cleave)"
             },
             {
+              "wargear": [
+                "Pickaxe"
+              ],
               "id": "_ubzsc33",
               "name": "Pickaxe",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (1\", piercing)",
-              "wargear": [
-                "Pickaxe"
-              ]
+              "text": "Move 2\", Attack 3 (1\", piercing)"
             },
             {
+              "wargear": [
+                "Glaive"
+              ],
               "id": "_71ds4hz",
               "name": "Glaive",
               "tag": "action",
-              "text": "Move 2\", Attack 5 (3\", melee)",
-              "wargear": [
-                "Glaive"
-              ]
+              "text": "Move 2\", Attack 5 (3\", melee)"
             },
             {
+              "wargear": [],
               "id": "_f6xz5zy",
               "name": "Wobble",
               "tag": "action",
-              "text": "Move 2 + 1d3\"",
-              "wargear": []
+              "text": "Move 2 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_ip255a0",
               "name": "Unstack",
               "tag": "action",
-              "text": "Move 6 + 1d3\", Kobold Stack becomes Vulnerable until the end of your next turn",
-              "wargear": []
+              "text": "Move 6 + 1d3\", Kobold Stack becomes Vulnerable until the end of your next turn"
             }
           ],
           "id": "_8i2oxk3"
@@ -2012,12 +2012,14 @@
           "id": "_yfytmpd"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": 2,
           "name": "Kobold Champion",
           "tough": 4,
           "wounds": 8,
           "estAtk": 5,
-          "atkMult": 2,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -2025,29 +2027,27 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_hmhzmyp",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 7\" (flying), Attack 5 (1\", piercing)",
-              "wargear": []
+              "text": "Move 7\" (flying), Attack 5 (1\", piercing)"
             },
             {
+              "wargear": [],
               "id": "_t5w19xu",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 7 + 1d3\" (flying)",
-              "wargear": []
+              "text": "Move 7 + 1d3\" (flying)"
             },
             {
+              "wargear": [],
               "id": "_na9uyoo",
               "name": "Duel",
               "tag": "passive",
-              "text": "Kobold Champion has 6 toughness against all units except the closest enemy unit to Kobold Champion within 6\", or any units within 1\".",
-              "wargear": []
+              "text": "Kobold Champion has 6 toughness against all units except the closest enemy unit to Kobold Champion within 6\", or any units within 1\"."
             }
           ],
           "id": "_i13yfg4"
@@ -2146,12 +2146,14 @@
           "id": "_pm69y1o"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": 2,
           "name": "Kobold Machine",
           "tough": 5,
           "wounds": 7,
           "estAtk": 5,
-          "atkMult": 2,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -2159,29 +2161,27 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_jic6b31",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 4\", Attack 5 (1\", piercing)",
-              "wargear": []
+              "text": "Move 4\", Attack 5 (1\", piercing)"
             },
             {
+              "wargear": [],
               "id": "_6y02sno",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 4 + 1d3\"",
-              "wargear": []
+              "text": "Move 4 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_ezleakh",
               "name": "Emerge",
               "tag": "passive",
-              "text": "Kobold Machine can be deployed anywhere on the board, as long as it is not the furthest forward unit, and it is not within 2\" of any enemy units. It can't take any action or move on the turn it is deployed. On the turn it is deployed, any other unit can deploy within 1\" of Kobold machine and 2\" away from enemy units, and those units also can't take actions or move.",
-              "wargear": []
+              "text": "Kobold Machine can be deployed anywhere on the board, as long as it is not the furthest forward unit, and it is not within 2\" of any enemy units. It can't take any action or move on the turn it is deployed. On the turn it is deployed, any other unit can deploy within 1\" of Kobold machine and 2\" away from enemy units, and those units also can't take actions or move."
             }
           ],
           "id": "_c4y5awh"
