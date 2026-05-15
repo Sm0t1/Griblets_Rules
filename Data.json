@@ -1309,24 +1309,24 @@
     {
       "rules": [
         {
-          "id": "_5mlko1e",
+          "id": "_1qcmz86",
           "title": "Nimble (Passive)",
           "desc": "At the end of each unit's turn, if it didn't use all available movement, that unit can make an additional move equal to the unused movement, rounded down to the nearest inch."
         },
         {
-          "id": "_aojn2a1",
+          "id": "_btr4npi",
           "title": "Misdirection (Maneuver)",
           "desc": "Choose a unit that was chosen as the target of the attack. That attack must target a different unit of your choice within 3\" of the original unit. The attack still uses the range and cover of the original unit, but the toughness of the new unit."
         },
         {
-          "id": "_1dkwg76",
+          "id": "_lri5yn1",
           "title": "Overgrowth (Maneuver)",
           "desc": "Choose an objective. Until the start of your next turn, the objective area counts as obscuring."
         },
         {
-          "id": "_3lik8th",
+          "id": "_w47zly1",
           "title": "Hideaway (Maneuver)",
-          "desc": "Choose a unit within 1\" of an obstacle. That unit is taken off the board. The next time that unit activates, it can be placed with all models base to base with that obstacle at the start of its activation. During that activation, the unit's movement is reduced by 2\"."
+          "desc": "Choose a unit within 1\" of an obstacle. That unit is taken off the board. The next time that unit activates on a later turn, it can be placed with all models base to base with that obstacle at the start of its activation. During that activation, the unit's movement is reduced by 2\"."
         }
       ],
       "id": "a1778156591081",
@@ -1402,14 +1402,12 @@
           "id": "_2fdwud6"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Berserker",
           "tough": 4,
           "wounds": 3,
           "estAtk": 5,
+          "atkMult": null,
+          "notes": "",
           "tiers": [
             {
               "models": 2,
@@ -1421,27 +1419,29 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_72f6gkj",
+              "id": "_z71lofh",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 6\", Attack 5 (3\", melee)"
+              "text": "Move 6\", Attack 5 (3\", melee)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_3gyzf4o",
+              "id": "_gvtg8q1",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_xqjjg58",
+              "id": "_bo0prxr",
               "name": "Spin",
               "tag": "action",
-              "text": "Move 6\" + Attack 2 (3\", melee, cleave) against all enemy units within range at one point during the move"
+              "text": "Move 6\" + Attack 3 (3\", melee) against all enemy units within range at one point during the move",
+              "wargear": []
             }
           ],
           "id": "_buzr26i"
