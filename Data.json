@@ -2012,14 +2012,12 @@
           "id": "_yfytmpd"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": 2,
           "name": "Kobold Champion",
           "tough": 4,
-          "wounds": 7,
-          "estAtk": 6,
+          "wounds": 8,
+          "estAtk": 5,
+          "atkMult": 2,
+          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -2027,27 +2025,29 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_4wsrm2v",
+              "id": "_hmhzmyp",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 7\" (flying), Attack 6 (1\", piercing)"
+              "text": "Move 7\" (flying), Attack 5 (1\", piercing)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_ig7gizb",
+              "id": "_t5w19xu",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 7 + 1d3\" (flying)"
+              "text": "Move 7 + 1d3\" (flying)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_q4a1aza",
+              "id": "_na9uyoo",
               "name": "Duel",
               "tag": "passive",
-              "text": "Kobold Champion has 6 toughness against all units except the closest enemy unit to Kobold Champion within 6\", or any units within 1\"."
+              "text": "Kobold Champion has 6 toughness against all units except the closest enemy unit to Kobold Champion within 6\", or any units within 1\".",
+              "wargear": []
             }
           ],
           "id": "_i13yfg4"
@@ -2112,7 +2112,7 @@
               "pts": 4
             }
           ],
-          "selectedTier": 1,
+          "selectedTier": 0,
           "actions": [
             {
               "wargear": [],
