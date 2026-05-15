@@ -1682,23 +1682,27 @@
           "notes": "",
           "tiers": [
             {
+              "models": 1,
+              "pts": 1
+            },
+            {
               "models": 2,
               "pts": 5
             }
           ],
-          "selectedTier": 0,
+          "selectedTier": 1,
           "wargear": [],
           "selectedWargear": [],
           "actions": [
             {
-              "id": "_s19e8cb",
+              "id": "_wu16ck8",
               "name": "Strike And Grab",
               "tag": "action",
               "text": "Move 6\", Attack 6 (1\"), Inflict 6 (1\", snared)",
               "wargear": []
             },
             {
-              "id": "_y0bodsj",
+              "id": "_haoda8y",
               "name": "Rush",
               "tag": "action",
               "text": "Move 6 + 1d3\"",
