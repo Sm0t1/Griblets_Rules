@@ -1495,8 +1495,8 @@
           "name": "Gnome Fisherman",
           "tough": 3,
           "wounds": 5,
-          "estAtk": 10,
-          "atkMult": null,
+          "estAtk": 8,
+          "atkMult": 2,
           "notes": "",
           "tiers": [
             {
@@ -1509,21 +1509,21 @@
           "selectedWargear": [],
           "actions": [
             {
-              "id": "_2swd2i2",
+              "id": "_hlizos7",
               "name": "Fish",
               "tag": "action",
-              "text": "Move 6\", Inflict 10 (6\", melee, snared), target becomes vulnerable regardless of success",
+              "text": "Move 6\", Inflict 8 (6\", melee, piercing, snared, vulnerable)",
               "wargear": []
             },
             {
-              "id": "_46op68g",
+              "id": "_53pf49a",
               "name": "Rush",
               "tag": "action",
               "text": "Move 6 + 1d3\"",
               "wargear": []
             },
             {
-              "id": "_zsg2coa",
+              "id": "_0w9tg11",
               "name": "Feed",
               "tag": "action",
               "text": "Move 6\", Allied unit within 3\" heals 1d3 wounds per fisherman model",
