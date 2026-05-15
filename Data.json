@@ -1509,24 +1509,24 @@
           "selectedWargear": [],
           "actions": [
             {
-              "id": "_o4u4jrv",
+              "id": "_2swd2i2",
               "name": "Fish",
               "tag": "action",
               "text": "Move 6\", Inflict 10 (6\", melee, snared), target becomes vulnerable regardless of success",
               "wargear": []
             },
             {
-              "id": "_nvmxx0m",
+              "id": "_46op68g",
               "name": "Rush",
               "tag": "action",
               "text": "Move 6 + 1d3\"",
               "wargear": []
             },
             {
-              "id": "_j4m0nxe",
+              "id": "_zsg2coa",
               "name": "Feed",
               "tag": "action",
-              "text": "Move 6\", Allied unit within 3\" heals 1d3 wounds per model",
+              "text": "Move 6\", Allied unit within 3\" heals 1d3 wounds per fisherman model",
               "wargear": []
             }
           ],
@@ -1674,12 +1674,14 @@
           "id": "_rst80yr"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": null,
           "name": "Gnome Beaver Friend",
           "tough": 5,
           "wounds": 6,
           "estAtk": 6,
-          "atkMult": null,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1691,22 +1693,20 @@
             }
           ],
           "selectedTier": 1,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_wu16ck8",
               "name": "Strike And Grab",
               "tag": "action",
-              "text": "Move 6\", Attack 6 (1\"), Inflict 6 (1\", snared)",
-              "wargear": []
+              "text": "Move 6\", Attack 6 (1\"), Inflict 6 (1\", snared)"
             },
             {
+              "wargear": [],
               "id": "_haoda8y",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\"",
-              "wargear": []
+              "text": "Move 6 + 1d3\""
             }
           ],
           "id": "_4muk0jw"
