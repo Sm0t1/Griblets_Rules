@@ -3,22 +3,22 @@
     {
       "rules": [
         {
-          "id": "_pp7l5kk",
+          "id": "_36xfrn1",
           "title": "Fortify (Passive)",
-          "desc": "When you would activate a unit, you can instead choose to fortify that unit. A unit can't activate and fortify. Place a fortify token next to that unit if it does not already have one. Once per round, you may activate a unit with a fortify token without spending an activation, consuming the fortify token."
+          "desc": "When you would deploy a unit, you can choose to place it on the battlefield and not take any action. Deploying a unit this way doesn't expend an activation."
         },
         {
-          "id": "_eea30rl",
+          "id": "_e937cin",
           "title": "Mark (Manoeuver)",
           "desc": "Choose an enemy unit, and place a mark token on that unit. After a unit has had a mark token for 1 turn, attacks against that unit ignore obscuring terrain, and ranged attacks against that unit have their range increased by 3\". The token is not removed until the unit finishes a movement 3\" closer to that player's far board edge."
         },
         {
-          "id": "_jedh04s",
+          "id": "_j4ocefp",
           "title": "Hold Ground (Manoeuver)",
-          "desc": "Choose an enemy unit that is attempting to move within 1” of an allied unit. That unit can either choose to not enter within 1” of that unit, or that unit can trigger an action, however they can’t move during that action, and any attacks can only target the triggering unit. Ranged attacks made this way don’t suffer from inaccurate."
+          "desc": "Choose an enemy unit that just moved within 1” of an allied unit. That allied unit can immediately take any action, however can only move directly towards the triggering unit, and attack that unit with that action. Any attack made this way has inaccurate."
         },
         {
-          "id": "_zflwet6",
+          "id": "_3dfo3mt",
           "title": "Dig Out (Manoeuver)",
           "desc": "Chose a piece of terrain within 1\" of an allied unit. Remove that piece of terrain from the board."
         }
