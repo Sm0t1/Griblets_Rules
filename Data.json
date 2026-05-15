@@ -1578,17 +1578,12 @@
           "id": "_p4lunoz"
         },
         {
-          "notes": "Choose Spear or Bow",
-          "wargear": [
-            "Spear",
-            "Bow"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Mouserider",
-          "tough": 3,
-          "wounds": 9,
+          "tough": 5,
+          "wounds": 5,
           "estAtk": 8,
+          "atkMult": null,
+          "notes": "Choose Spear or Bow",
           "tiers": [
             {
               "models": 1,
@@ -1596,38 +1591,43 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [
+            "Spear",
+            "Bow"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Spear"
-              ],
-              "id": "_6jyzu2w",
+              "id": "_p4tk9yu",
               "name": "Spear",
               "tag": "action",
-              "text": "Move 8\", Attack 4 (3\", melee, piercing)"
+              "text": "Move 8\", Attack 4 (3\", melee, piercing)",
+              "wargear": [
+                "Spear"
+              ]
             },
             {
-              "wargear": [
-                "Bow"
-              ],
-              "id": "_y243uez",
+              "id": "_eu11j2c",
               "name": "Bow",
               "tag": "action",
-              "text": "Move 6\", Attack 8 (7\")"
+              "text": "Move 6\", Attack 8 (7\")",
+              "wargear": [
+                "Bow"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_5lb6jvl",
+              "id": "_6tjb7a5",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 8 + 1d3\""
+              "text": "Move 8 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_kkqapo1",
+              "id": "_jpygb63",
               "name": "Mighty Charge",
               "tag": "passive",
-              "text": "On the turn Gnome Mouserider is deployed, it can attack, and move 6\" further."
+              "text": "On the turn Gnome Mouserider is deployed, it can attack, and move 6\" further.",
+              "wargear": []
             }
           ],
           "id": "_878phxg"
