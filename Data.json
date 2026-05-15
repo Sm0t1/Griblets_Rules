@@ -1843,18 +1843,12 @@
           "id": "_qjdgmr6"
         },
         {
-          "notes": "",
-          "wargear": [
-            "Sword",
-            "Pickaxe",
-            "Glaive"
-          ],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Kobold Stack",
           "tough": 6,
           "wounds": 5,
           "estAtk": 5,
+          "atkMult": null,
+          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1865,48 +1859,54 @@
               "pts": 4
             }
           ],
-          "selectedTier": 1,
+          "selectedTier": 0,
+          "wargear": [
+            "Sword",
+            "Pickaxe",
+            "Glaive"
+          ],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [
-                "Sword"
-              ],
-              "id": "_1in15x4",
+              "id": "_80m7xbt",
               "name": "Sword",
               "tag": "action",
-              "text": "Move 2\", Attack 5 (1\")"
+              "text": "Move 2\", Attack 3 (1\", cleave)",
+              "wargear": [
+                "Sword"
+              ]
             },
             {
-              "wargear": [
-                "Pickaxe"
-              ],
-              "id": "_inw93cm",
+              "id": "_ubzsc33",
               "name": "Pickaxe",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (1\", piercing)"
+              "text": "Move 2\", Attack 3 (1\", piercing)",
+              "wargear": [
+                "Pickaxe"
+              ]
             },
             {
-              "wargear": [
-                "Glaive"
-              ],
-              "id": "_osu1mwa",
+              "id": "_71ds4hz",
               "name": "Glaive",
               "tag": "action",
-              "text": "Move 2\", Attack 3 (3\", melee, cleave)"
+              "text": "Move 2\", Attack 5 (3\", melee)",
+              "wargear": [
+                "Glaive"
+              ]
             },
             {
-              "wargear": [],
-              "id": "_znogjv7",
+              "id": "_f6xz5zy",
               "name": "Wobble",
               "tag": "action",
-              "text": "Move 2 + 1d3\""
+              "text": "Move 2 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_s2v7bft",
+              "id": "_ip255a0",
               "name": "Unstack",
               "tag": "action",
-              "text": "Move 6 + 1d3\", Kobold Stack becomes Vulnerable until the end of your next turn"
+              "text": "Move 6 + 1d3\", Kobold Stack becomes Vulnerable until the end of your next turn",
+              "wargear": []
             }
           ],
           "id": "_8i2oxk3"
