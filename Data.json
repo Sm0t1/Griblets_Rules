@@ -2163,24 +2163,24 @@
           "selectedWargear": [],
           "actions": [
             {
-              "id": "_pl6vlhx",
+              "id": "_jic6b31",
               "name": "Strike",
               "tag": "action",
               "text": "Move 4\", Attack 5 (1\", piercing)",
               "wargear": []
             },
             {
-              "id": "_h5j06lk",
+              "id": "_6y02sno",
               "name": "Rush",
               "tag": "action",
               "text": "Move 4 + 1d3\"",
               "wargear": []
             },
             {
-              "id": "_my0btre",
+              "id": "_ezleakh",
               "name": "Emerge",
               "tag": "passive",
-              "text": "Kobold Machine can be deployed anywhere on the board, as long as it is not the furthest forward unit, and it is not within 3\" of any enemy units. It can't take any action or move on the turn it is deployed. On the turn it is deployed, any other unit can deploy within 1\" of Kobold machine, and those units also can't take actions or move.",
+              "text": "Kobold Machine can be deployed anywhere on the board, as long as it is not the furthest forward unit, and it is not within 2\" of any enemy units. It can't take any action or move on the turn it is deployed. On the turn it is deployed, any other unit can deploy within 1\" of Kobold machine and 2\" away from enemy units, and those units also can't take actions or move.",
               "wargear": []
             }
           ],
