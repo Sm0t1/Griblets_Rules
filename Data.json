@@ -1402,12 +1402,14 @@
           "id": "_2fdwud6"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": null,
           "name": "Gnome Berserker",
           "tough": 4,
           "wounds": 3,
           "estAtk": 5,
-          "atkMult": null,
-          "notes": "",
           "tiers": [
             {
               "models": 2,
@@ -1419,29 +1421,27 @@
             }
           ],
           "selectedTier": 1,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_z71lofh",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 6\", Attack 5 (3\", melee)",
-              "wargear": []
+              "text": "Move 6\", Attack 5 (3\", melee)"
             },
             {
+              "wargear": [],
               "id": "_gvtg8q1",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\"",
-              "wargear": []
+              "text": "Move 6 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_bo0prxr",
               "name": "Spin",
               "tag": "action",
-              "text": "Move 6\" + Attack 3 (3\", melee) against all enemy units within range at one point during the move",
-              "wargear": []
+              "text": "Move 6\" + Attack 3 (3\", melee) against all enemy units within range at one point during the move"
             }
           ],
           "id": "_buzr26i"
@@ -1492,12 +1492,14 @@
           "id": "_5asb6ln"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": 2,
           "name": "Gnome Fisherman",
           "tough": 3,
           "wounds": 5,
           "estAtk": 4,
-          "atkMult": 2,
-          "notes": "",
           "tiers": [
             {
               "models": 2,
@@ -1505,40 +1507,40 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_jcu26hh",
               "name": "Fish",
               "tag": "action",
-              "text": "Move 6\", Inflict 6 (6\", piercing, snared, vulnerable)",
-              "wargear": []
+              "text": "Move 6\", Inflict 6 (6\", piercing, snared, vulnerable)"
             },
             {
+              "wargear": [],
               "id": "_l973emc",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\"",
-              "wargear": []
+              "text": "Move 6 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_v2f019a",
               "name": "Feed",
               "tag": "action",
-              "text": "Move 6\", Allied unit within 3\" heals 1d3 wounds per model",
-              "wargear": []
+              "text": "Move 6\", Allied unit within 3\" heals 1d3 wounds per model"
             }
           ],
           "id": "_9xffyfw"
         },
         {
+          "notes": "",
+          "wargear": [],
+          "selectedWargear": [],
+          "atkMult": null,
           "name": "Gnome Sled",
           "tough": 3,
           "wounds": 8,
           "estAtk": 5,
-          "atkMult": null,
-          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -1550,29 +1552,27 @@
             }
           ],
           "selectedTier": 0,
-          "wargear": [],
-          "selectedWargear": [],
           "actions": [
             {
+              "wargear": [],
               "id": "_p0i77xc",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 7\", Attack 5 (3\", melee)",
-              "wargear": []
+              "text": "Move 7\", Attack 5 (3\", melee)"
             },
             {
+              "wargear": [],
               "id": "_liv12j1",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 9 + 1d3\"",
-              "wargear": []
+              "text": "Move 9 + 1d3\""
             },
             {
+              "wargear": [],
               "id": "_6cqc05h",
               "name": "Hitch A Ride",
               "tag": "passive",
-              "text": "If any allied units with equal or less remaining wounds come within 1\" of Gnome Sled during its movement, they can immediately move up to 5\" directly towards Gnome Sled.",
-              "wargear": []
+              "text": "If any allied units with equal or less remaining wounds come within 1\" of Gnome Sled during its movement, they can immediately move up to 5\" directly towards Gnome Sled."
             }
           ],
           "id": "_p4lunoz"
@@ -1674,35 +1674,35 @@
           "id": "_rst80yr"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": null,
           "name": "Gnome Beaver Friend",
           "tough": 5,
-          "wounds": 9,
-          "estAtk": 8,
+          "wounds": 6,
+          "estAtk": 6,
+          "atkMult": null,
+          "notes": "",
           "tiers": [
             {
-              "models": 1,
-              "pts": 3
+              "models": 2,
+              "pts": 5
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_6gogsum",
+              "id": "_s19e8cb",
               "name": "Strike And Grab",
               "tag": "action",
-              "text": "Move 6\", Attack 8 (1\"), Inflict 8 (1\", snared)"
+              "text": "Move 6\", Attack 6 (1\"), Inflict 6 (1\", snared)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_qi16g1r",
+              "id": "_y0bodsj",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 6 + 1d3\""
+              "text": "Move 6 + 1d3\"",
+              "wargear": []
             }
           ],
           "id": "_4muk0jw"
