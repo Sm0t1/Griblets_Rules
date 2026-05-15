@@ -2146,14 +2146,12 @@
           "id": "_pm69y1o"
         },
         {
-          "notes": "",
-          "wargear": [],
-          "selectedWargear": [],
-          "atkMult": 2,
           "name": "Kobold Machine",
           "tough": 5,
           "wounds": 7,
           "estAtk": 5,
+          "atkMult": 2,
+          "notes": "",
           "tiers": [
             {
               "models": 1,
@@ -2161,27 +2159,29 @@
             }
           ],
           "selectedTier": 0,
+          "wargear": [],
+          "selectedWargear": [],
           "actions": [
             {
-              "wargear": [],
-              "id": "_7vav9go",
+              "id": "_pl6vlhx",
               "name": "Strike",
               "tag": "action",
-              "text": "Move 4\", Attack 5 (1\", piercing)"
+              "text": "Move 4\", Attack 5 (1\", piercing)",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_brlddxt",
+              "id": "_h5j06lk",
               "name": "Rush",
               "tag": "action",
-              "text": "Move 4 + 1d3\""
+              "text": "Move 4 + 1d3\"",
+              "wargear": []
             },
             {
-              "wargear": [],
-              "id": "_bkt3emd",
+              "id": "_my0btre",
               "name": "Emerge",
               "tag": "passive",
-              "text": "Kobold Machine can be deployed anywhere on the board, as long as it is not the furthest forward unit. It can't take any action or move on the turn it is deployed. On the turn it is deployed, any other unit can deploy within 1\" of Kobold machine, and those units also can't take actions or move."
+              "text": "Kobold Machine can be deployed anywhere on the board, as long as it is not the furthest forward unit, and it is not within 3\" of any enemy units. It can't take any action or move on the turn it is deployed. On the turn it is deployed, any other unit can deploy within 1\" of Kobold machine, and those units also can't take actions or move.",
+              "wargear": []
             }
           ],
           "id": "_c4y5awh"
